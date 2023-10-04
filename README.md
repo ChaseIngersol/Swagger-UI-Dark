@@ -17,4 +17,4 @@ app.UseSwaggerUI(c => {
 app.UseStaticFiles();
 ```
 
-Create a top-level `wwwroot/swagger-ui/` directory in your project and put the `swagger_ui_dark.css` in it.
+Make a top-level `wwwroot/swagger-ui/` directory in your project and add `swagger_ui_dark.css` to it.
