@@ -1,5 +1,3 @@
-/* Fastapi - Swagger UI Dark */
-
 :root {
   --background-color: #1E1E2E;
   --tab-header-background-color: #303446;
@@ -9418,7 +9416,7 @@ body a:hover {
 
 .swagger-ui .opblock .opblock-section-header {
   align-items: center;
-  background: var(--tab-header-background-color);
+  background: #ffffff0a;
   box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
   display: flex;
   min-height: 50px;
@@ -9911,7 +9909,7 @@ body a:hover {
 }
 
 .swagger-ui .scheme-container {
-  background: #fff;
+  background: #29293f;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .15);
   margin: 0 0 20px;
   padding: 30px 0
@@ -10169,9 +10167,14 @@ body a:hover {
 }
 
 .swagger-ui .btn.execute {
-  background-color: #4990e2;
-  border-color: #4990e2;
+  background-color: #ffffff30;
+  border-color: #ffffff14;
   color: #fff
+}
+
+.swagger-ui .btn.execute:hover {
+  background-color: #ffffff63;
+  border-color: #ffffff69;
 }
 
 .swagger-ui .btn-group {
@@ -10218,7 +10221,7 @@ body a:hover {
 .swagger-ui .model-box-control:focus,
 .swagger-ui .models-control:focus,
 .swagger-ui .opblock-summary-control:focus {
-  outline: auto
+  outline: none
 }
 
 .swagger-ui .expand-methods,
@@ -10294,7 +10297,7 @@ body a:hover {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #f7f7f7 url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13.418 7.859a.695.695 0 0 1 .978 0 .68.68 0 0 1 0 .969l-3.908 3.83a.697.697 0 0 1-.979 0l-3.908-3.83a.68.68 0 0 1 0-.969.695.695 0 0 1 .978 0L10 11l3.418-3.141z"/></svg>') right 10px center no-repeat;
+  background: #1e1e2e url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13.418 7.859a.695.695 0 0 1 .978 0 .68.68 0 0 1 0 .969l-3.908 3.83a.697.697 0 0 1-.979 0l-3.908-3.83a.68.68 0 0 1 0-.969.695.695 0 0 1 .978 0L10 11l3.418-3.141z"/></svg>') right 10px center no-repeat;
   background-size: 20px;
   border: 2px solid #41444e;
   border-radius: 4px;
@@ -10354,8 +10357,9 @@ body a:hover {
 .swagger-ui input[type=search],
 .swagger-ui input[type=text],
 .swagger-ui textarea {
-  background: #fff;
-  border: 1px solid #d9d9d9;
+  background: #00000066;
+  color: #b2b2b2;
+  border: 1px solid #ffffff42;
   border-radius: 4px;
   margin: 5px 0;
   min-width: 100px;
@@ -10377,7 +10381,7 @@ body a:hover {
 .swagger-ui input[disabled],
 .swagger-ui select[disabled],
 .swagger-ui textarea[disabled] {
-  background-color: #fafafa;
+  background-color: #00000026;
   color: #888;
   cursor: not-allowed
 }
@@ -10440,8 +10444,8 @@ body a:hover {
 }
 
 .swagger-ui textarea {
-  background: hsla(0, 0%, 100%, .8);
-  border: none;
+  background: #00000047;
+  border: 1px solid #ffffff1c;
   border-radius: 4px;
   color: var(--text-color);
   font-family: monospace;
@@ -10535,8 +10539,8 @@ body a:hover {
 }
 
 .swagger-ui .dialog-ux .modal-ux {
-  background: #fff;
-  border: 1px solid #ebebeb;
+  background: #1e1e2e;
+  border: 1px solid #41415f;
   border-radius: 4px;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .2);
   left: 50%;
@@ -10573,7 +10577,7 @@ body a:hover {
 
 .swagger-ui .dialog-ux .modal-ux-header {
   align-items: center;
-  border-bottom: 1px solid #ebebeb;
+  border-bottom: 1px solid #31314b;
   display: flex;
   padding: 12px 0
 }
@@ -10584,7 +10588,8 @@ body a:hover {
   appearance: none;
   background: none;
   border: none;
-  padding: 0 10px
+  padding: 0 10px;
+  filter: invert(1);
 }
 
 .swagger-ui .dialog-ux .modal-ux-header h3 {
@@ -10621,6 +10626,7 @@ body a:hover {
   margin: auto .3em;
   position: relative;
   top: 6px;
+  filter: invert(1);
   transform: rotate(90deg);
   transform-origin: 50% 50%;
   transition: transform .15s ease-in
@@ -10679,7 +10685,7 @@ body a:hover {
 }
 
 .swagger-ui .model .property.primitive {
-  color: #6b6b6b
+  color: #8590b7
 }
 
 .swagger-ui table.model tr.description {
@@ -10713,7 +10719,7 @@ body a:hover {
 }
 
 .swagger-ui section.models {
-  border: 1px solid rgba(59, 65, 81, .3);
+  border: 1px solid #3e4557;
   border-radius: 4px;
   margin: 30px 0
 }
@@ -10727,13 +10733,13 @@ body a:hover {
 }
 
 .swagger-ui section.models.is-open h4 {
-  border-bottom: 1px solid rgba(59, 65, 81, .3);
+  border-bottom: 1px solid #4e55674d;
   margin: 0 0 5px
 }
 
 .swagger-ui section.models h4 {
   align-items: center;
-  color: #606060;
+  color: #dbdbdb;
   cursor: pointer;
   display: flex;
   font-family: sans-serif;
@@ -10768,7 +10774,7 @@ body a:hover {
 }
 
 .swagger-ui section.models .model-container {
-  background: rgba(0, 0, 0, .05);
+  background: #29293f; 
   border-radius: 4px;
   margin: 0 20px 15px;
   position: relative;
@@ -10815,7 +10821,7 @@ body a:hover {
 }
 
 .swagger-ui .model-title {
-  color: #505050;
+  color: #dbdbdb;
   font-family: sans-serif;
   font-size: 16px
 }
@@ -10852,7 +10858,7 @@ body a:hover {
 }
 
 .swagger-ui .prop-format {
-  color: #606060
+  color: #bcc9f7
 }
 
 .swagger-ui .servers>label {
@@ -11055,7 +11061,7 @@ body a:hover {
 }
 
 .swagger-ui .topbar {
-  background-color: #1b1b1b;
+  background-color: #29293f;
   padding: 10px 0
 }
 
@@ -11072,7 +11078,8 @@ body a:hover {
   font-size: 1.5em;
   font-weight: 700;
   max-width: 300px;
-  text-decoration: none
+  text-decoration: none;
+  display: none;
 }
 
 .swagger-ui .topbar a span {
@@ -11111,7 +11118,7 @@ body a:hover {
 }
 
 .swagger-ui .topbar .download-url-wrapper .select-label select {
-  border: 2px solid #62a03f;
+  border: 2px solid #353b5f;
   box-shadow: none;
   flex: 2;
   outline: none;
@@ -11405,9 +11412,10 @@ body a:hover {
 
 .swagger-ui .markdown code,
 .swagger-ui .renderedMarkdown code {
-  background: rgba(0, 0, 0, .05);
+  background: #00000029;
+  border: 1px solid #ffffff14;
   border-radius: 4px;
-  color: #9012fe;
+  color: #cdd6f4;
   font-family: monospace;
   font-size: 14px;
   font-weight: 600;
@@ -11418,5 +11426,3 @@ body a:hover {
 .swagger-ui .renderedMarkdown pre>code {
   display: block
 }
-
-/*# sourceMappingURL=swagger-ui.css.map*/
